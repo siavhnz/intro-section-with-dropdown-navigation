@@ -1,5 +1,7 @@
+import IntroPage from "./pages/Intro";
+
 function App() {
-  return <>Intro section</>;
+  return <IntroPage />;
 }
 
 export default App;

@@ -47,12 +47,15 @@ Users should be able to:
 
 - React
 - [TailwindCss](https://tailwindcss.com/)
+- Framer Motion
 
 ### What I learned
 
 ### Continued development
 
 ### Useful resources
+
+- [Multi Level Menu](https://blog.logrocket.com/how-create-multilevel-dropdown-menu-react/)
 
 ## Author
 
