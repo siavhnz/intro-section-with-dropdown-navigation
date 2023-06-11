@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation solution
 
-This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5).
 
 ## Table of contents
 
@@ -12,7 +12,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Work time](#work-time)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -29,29 +28,54 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-Bslsp0um9O)
 
-- Live Site: [cloudflare](https://?.pages.dev)
+- Live Site: [cloudflare](https://intro-section-with-dropdown-navigation-acd.pages.dev/)
 
 ## My process
 
+- 1.Download assets, Install Vite & TailwindCss, Initialize git, README.md, Prepare project, ...
+- 2.Create components
+  - 1.Identify component
+  - 2.Create components + style + functionality if exists
+  - 3.go to step 1 (Identify component)
+- 3.Prepare and Publish(4.Write README.md, Push to github, Make it live on Cloudflare, Publish to frontendmentor, ...)
+
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/6485c2eb617c100dbe831276)
 
 ### Built with
 
-- React
+- [React](https://react.dev/)
 - [TailwindCss](https://tailwindcss.com/)
-- Framer Motion
+- [Framer Motion](https://framer.com/motion)
 
 ### What I learned
 
-### Continued development
+A div with absolute position get size of its children if:
+
+- make display of div flex
+- make flex-shrink of children 0
+
+```jsx
+
+<motion.div
+  ...
+  className="... flex"
+>
+  <ul className="... shrink-0">
+    ...
+  </ul>
+</motion.div>
+
+```
+
+In this code each menu dropdown get appropriate width
 
 ### Useful resources
 
